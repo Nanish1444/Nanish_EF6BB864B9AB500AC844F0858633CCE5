@@ -28,7 +28,7 @@ if __name__ == "__main__":
     account = BankAccount("123456789", "John Doe", 1000.0)
 
     # Display initial balance
-    account.display_balance()
+    account.display_balance(
 
     # Make some deposits and withdrawals
     account.deposit(500.0)
