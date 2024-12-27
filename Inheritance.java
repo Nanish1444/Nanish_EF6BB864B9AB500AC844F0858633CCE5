@@ -30,12 +30,6 @@ abstract class Person{
 
     public abstract void introduce();
 }
-class Address {
-    private doorNo;
-    private streetName;
-    private city;
-    protected Address()
-}
 //single inheritance
 class Employee extends Person {
     private String position;
